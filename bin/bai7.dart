@@ -8,11 +8,18 @@ void main(List<String> args) {
   print(b);
   print(c);
 }
+
 String interPret(String command) {
-  
   command = command.replaceAll("()", "o");
   command = command.replaceAll("(", "");
   command = command.replaceAll(")", "");
-
+  // List<String> str = List.empty(growable: true);
+  // for (int i = 0; i < command.length; i++) {
+  //   str.add((command[i] == '(' && command[i + 1] == ')')
+  //       ? "o"
+  //       : command[i] == '(' || command[i] == ')'
+  //           ? ""
+  //           : command[i].toString());
+  // }
   return command;
 }
