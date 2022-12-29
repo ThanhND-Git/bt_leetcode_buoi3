@@ -8,11 +8,12 @@ void main(List<String> args) {
   print(c);
 }
 String addStrings(String num1, String num2) {
-
-  var l1 = int.parse(num1);
-  var l2 = int.parse(num2);
-  var sum = l1 + l2;
-  var result = sum.toString();
-  return result;
+  // sai yêu cầu bài 
+  // var l1 = int.parse(num1);
+  // var l2 = int.parse(num2);
+  // var sum = l1 + l2;
+  // var result = sum.toString();
+  // return result;
+  
 
 }
